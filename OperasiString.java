@@ -18,5 +18,12 @@ public class OperasiString {
 
         System.out.println(uniskacString.substring(0, 4));
         System.out.println(kota.substring(0, 4));
+
+        String hariIni = "2024-04-22";
+        String tahun = hariIni.substring(0, 4);
+        String bulan = hariIni.substring(5, 7);
+        String tanggal = hariIni.substring(8, 10);
+        System.out.println(tanggal + "-" + bulan + "-" + tahun);
+
     }
 }
