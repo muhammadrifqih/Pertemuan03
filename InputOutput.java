@@ -10,6 +10,6 @@ public class InputOutput {
         System.out.println("Nama :" + nama);
         System.out.println("Input Nama Baru: ");
         nama = scanner.nextLine();
-        System.out.println("Nama Baru: " + nama);
+        System.out.println("Nama Baru : " + nama);
     }
 }
